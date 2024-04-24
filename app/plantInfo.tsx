@@ -22,7 +22,7 @@ function Explore(props) {
         { name: "Wild Bergamot", image: require('../assets/images/exploreLinks/WildBergamot.jpg') },
     ];
 
-    const openModal = (button) => {
+    const openModal = (button: { name: string; image: any; }) => {
         setSelectedButton(button);
         setModalVisible(true);
     };

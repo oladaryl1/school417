@@ -17,7 +17,7 @@ function index(props) {
                 <Text style={styles.exploreNavigateText}>Explore Wildlife</Text>
             </Link>
             <View style={styles.infoNavigateContainer}>
-                <Link style={styles.infoNavigateText} href={"/about"}>
+                <Link style={styles.infoNavigateText} href={"/about"} >
                     <Text style={styles.infoNavigateText}>About Us</Text>
                 </Link>
             </View>

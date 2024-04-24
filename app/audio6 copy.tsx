@@ -4,7 +4,7 @@ import {View, Text, StyleSheet } from 'react-native';
 import { ResizeMode, Video } from 'expo-av';
 
 
-function audio3(props) {
+function audio1(props) {
 
     const video = React.useRef(null)
     const[status, setStatus] = React.useState({})
@@ -14,14 +14,14 @@ function audio3(props) {
     return (
        <View style={styles.container}>
         <Text style={styles.text}>
-        The community saves a treasure 
+            Time travel to the distant past
         </Text>
         <Text style={styles.text}>
-        Tap to View Controls
+            Tap to view Media Controls
         </Text>
         <Video ref={video}
         style={styles.video} 
-        source={require("../assets/music/somewhereIBelong.mp3")}
+        source={require("../assets/music/numb.mp3")}
         resizeMode={ResizeMode.CONTAIN}
         useNativeControls={showControls}
         onPlaybackStatusUpdate={setStatus}
@@ -34,7 +34,7 @@ function audio3(props) {
     );
 }
 
-export default audio3;
+export default audio1;
 
 const styles = StyleSheet.create({
     container:{

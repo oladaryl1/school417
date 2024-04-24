@@ -3,7 +3,7 @@ import { SafeAreaView, Text, StyleSheet, Image, TouchableOpacity, Modal, View, S
 import { LinearGradient } from 'expo-linear-gradient';
 
 // Import the images
-import americanCrowImage from '../assets/images/exploreLinks/Amcrow.jpg'; // Replace './americanCrowImage.jpg' with the path to your image
+import americanCrowImage from './assets/images/exploreLinks/Amcrow.jpg'; // Replace './americanCrowImage.jpg' with the path to your image
 import anotherBirdImage from '../assets/images/exploreLinks/Amgold.jpg'; // Add the path to the new bird image
 import thirdBirdImage from '../assets/images/exploreLinks/Amrobin.jpg'; // Add the path to the third bird image
 import fourthBirdImage from '../assets/images/exploreLinks/Baltimore.jpg'; // Add the path to the fourth bird image
@@ -16,7 +16,7 @@ import tenthBirdImage from '../assets/images/exploreLinks/Cardinal.jpg'; // Add 
 import eleventhBirdImage from '../assets/images/exploreLinks/Redtail.jpg'; // Add the path to the eleventh bird image
 import twelfthBirdImage from '../assets/images/exploreLinks/Redwing.jpg'; // Add the path to the twelfth bird image
 
-function Explore(props) {
+function Explore() {
     const [showAmericanCrowInfo, setShowAmericanCrowInfo] = useState(false);
     const [showAnotherBirdInfo, setShowAnotherBirdInfo] = useState(false);
     const [showThirdBirdInfo, setShowThirdBirdInfo] = useState(false);

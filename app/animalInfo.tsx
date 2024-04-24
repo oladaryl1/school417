@@ -16,7 +16,7 @@ import animal10Image from '../assets/images/exploreLinks/Prairiecrayfish.jpg';
 import animal11Image from '../assets/images/exploreLinks/Raccoon.jpg';
 import animal12Image from '../assets/images/exploreLinks/Skunk.jpg';
 
-function Explore(props) {
+function Explore() {
     const [showPopup1, setShowPopup1] = useState(false);
     const [showPopup2, setShowPopup2] = useState(false);
     const [showPopup3, setShowPopup3] = useState(false);

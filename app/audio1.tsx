@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { View, Text, StyleSheet, Button } from 'react-native';
 import { Video } from 'expo-av';
 
-function Audio1(props) {
+function Audio1() {
   const video = React.useRef(null);
   const [showControls, setShowControls] = useState(true);
 
